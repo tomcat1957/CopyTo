@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>365</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>65</y>
+     <width>361</width>
+     <height>146</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Таблицы</string>
+   </property>
+   <widget class="QListWidget" name="lst_table">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>15</y>
+      <width>331</width>
+      <height>121</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>15</y>
+     <width>376</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Файл</string>
+   </property>
+   <widget class="QLabel" name="lb_path_file">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>10</y>
+      <width>351</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>220</y>
+     <width>361</width>
+     <height>46</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Имя сохраняемой таблицы</string>
+   </property>
+   <widget class="QLineEdit" name="ln_name_new_tab">
+    <property name="geometry">
+     <rect>
+      <x>15</x>
+      <y>15</y>
+      <width>326</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="gpb_options">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>275</y>
+     <width>361</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Опции</string>
+   </property>
+   <widget class="QRadioButton" name="rb_add">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>15</y>
+      <width>90</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Добавить</string>
+    </property>
+    <property name="checked">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rb_replace">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>15</y>
+      <width>90</width>
+      <height>18</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Заменить</string>
+    </property>
+    <property name="checked">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pb_run">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>325</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выполнить </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pb_cancel">
+   <property name="geometry">
+    <rect>
+     <x>235</x>
+     <y>325</y>
+     <width>85</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Отмена</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
